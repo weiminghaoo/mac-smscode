@@ -1,0 +1,23 @@
+{
+  "preload": "./index.js",
+  "logo": "./icon.png",
+  "platform": [
+    "darwin"
+  ],
+  "pluginSetting": {
+    "single": true,
+    "height": 0
+  },
+  "features": [
+    {
+      "code": "scode",
+      "explain": "复制短信验证码",
+      "platform": [
+        "darwin"
+      ],
+      "cmds": [
+        "scode"
+      ]
+    }
+  ]
+}
